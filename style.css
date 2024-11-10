@@ -396,6 +396,24 @@ nav .fa-solid{
     .header-text h1{
         font-size: 30px;
     }
+
+.trexide-logo {
+        font-family: 'Poppins', sans-serif; /* Default font for the whole logo */
+        font-size: 30px; /* Adjust size as needed */
+        
+    }
+    
+    .trexide-logo .t {
+        font-family: 'Times New Roman', Times, serif; /* Apply Times New Roman for 'T' */
+        color: red; /* Apply red color to 'T' */
+    }
+    
+    .trexide-logo .rexide {
+        font-family: 'Times New Roman', Times, serif;
+        color: white; /* Apply white color to 'REXIDE' */
+    }
+
+    
     nav .fa-solid{
         display: block;
         font-size: 25px;
