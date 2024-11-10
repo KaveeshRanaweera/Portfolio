@@ -30,8 +30,21 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{
-    width: 140px;
+
+.trexide-logo {
+    font-family: 'Poppins', sans-serif; /* Default font for the whole logo */
+    font-size: 50px; /* Adjust size as needed */
+    
+}
+
+.trexide-logo .t {
+    font-family: 'Times New Roman', Times, serif; /* Apply Times New Roman for 'T' */
+    color: red; /* Apply red color to 'T' */
+}
+
+.trexide-logo .rexide {
+    font-family: 'Times New Roman', Times, serif;
+    color: white; /* Apply white color to 'REXIDE' */
 }
 
 nav ul li{
