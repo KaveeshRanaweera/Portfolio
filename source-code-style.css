@@ -57,13 +57,13 @@ section {
 
 /* Links styling */
 a {
-    color: #f7c32b;
+    color: #f10909;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #ffd700;
+    color: #f10909;
     text-decoration: underline;
 }
 
