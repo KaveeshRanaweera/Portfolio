@@ -11,37 +11,40 @@ body {
     color: #ffffff;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     margin: 0;
-}
-
-/* Main container styling */
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 0;
 }
 
 /* Header styling */
 header {
+    background-color: #1a1a1a;
+    color: #f7c32b;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 header h1 {
     font-size: 2em;
-    color: #f7c32b;
+    margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.1em;
     color: #ddd;
+}
+
+/* Main container styling */
+main {
+    margin-top: 150px; /* Increased the margin-top to ensure the content is not hidden by the header */
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* Section styling */
