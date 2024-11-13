@@ -1,0 +1,100 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #080808;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main container styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #f7c32b;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #ddd;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+}
+
+/* Links styling */
+a {
+    color: #f7c32b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+/* Code snippet styling */
+pre {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+code {
+    color: #00ffcc;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.9em;
+}
+
+/* Heading styles within sections */
+h2, h3 {
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p, h2, h3 {
+        font-size: 1em;
+    }
+}
