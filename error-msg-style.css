@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
     font-family: 'Arial', sans-serif;
     display: flex;
@@ -7,6 +8,8 @@ body {
     background-color: #1a1a1a;
     margin: 0;
     color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .warning-message {
@@ -17,7 +20,7 @@ body {
     padding: 30px;
     text-align: center;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    width: 80%;
+    width: 100%;
     max-width: 650px;
     transition: all 0.3s ease;
 }
@@ -38,7 +41,35 @@ body {
 }
 
 .warning-message:hover {
-    background-color: #444444;;
-    transition: 1s;
+    background-color: #444444;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Mobile-friendly Styles */
+@media (max-width: 768px) {
+    .warning-message {
+        padding: 20px;
+    }
+
+    .warning-message h2 {
+        font-size: 1.5em;
+    }
+
+    .warning-message p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .warning-message {
+        padding: 15px;
+    }
+
+    .warning-message h2 {
+        font-size: 1.3em;
+    }
+
+    .warning-message p {
+        font-size: 0.9em;
+    }
 }
