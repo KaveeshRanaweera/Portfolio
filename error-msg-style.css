@@ -38,7 +38,7 @@ body {
 }
 
 .warning-message:hover {
-    background-color: #ff0000;
+    background-color: #444444;;
     transition: 1s;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
