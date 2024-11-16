@@ -14,7 +14,7 @@ This is a responsive website built using HTML and CSS. It includes a home page w
   - **About**: Provides details about the website/project.
   - **Services**: Displays a list of services offered.
   - **Portfolio**: Showcases a portfolio section with image hover effects.
-  - **Contact**: A form for users to contact you, along with social media links.
+  - **Contact**: A form for users to contact you, along with social media links......
 
 ## Modifications
 
