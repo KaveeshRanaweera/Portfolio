@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Comaptible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Personal Portfolio</title>
+        <title>Trexide - Solutions Beyond the Code.</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/978e98736c.js" crossorigin="anonymous"></script>
     </head>
@@ -14,7 +14,7 @@
                 <nav>
 
                     <div class="trexide-logo">
-                        <span class="t">T</span><span class="rexide">rexide</span>
+                        <span class="t">T</span><span class="rexide">rexide Labs</span>
                     </div>
                     
                     <ul id="sidemenu">
@@ -23,14 +23,13 @@
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="error-msg.html" target="_blank">Projects</a></li> <!-- New Source Code link -->
                         <i class="fa-solid fa-x" onclick="closemenu()"></i>
                     </ul>
                     <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
-                    <p>Software Engineer</p>
-                    <h1>Hi, I'm <span>Kaveesh</span><br>Ranaweera from Sri Lanka</h1>
+                    <p>Solutions Beyond the Code.</p>
+                    <h1>Hi, I'm <span>Kaveesh</span><br>Ranaweera founder of Trexide-Labs</h1>
                 </div>
             </div>
         </div>
@@ -180,43 +179,10 @@
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright © Ranaweera Arachchilage Kaveesh Ranaweera </p>
+        <p>© 2025 Trexide Labs by Kaveesh Ranaweera. All rights reserved.</p>
     </div>
 </div>
-
-<!-- --------------------------------------------------------------------------------------Source Code -->
-
-
-        <script>
-            var tablinks = document.getElementsByClassName("tab-links");
-            var tabcontents = document.getElementsByClassName("tab-contents");
-
-            function opentab(tabname)
-            {
-                for(tablink of tablinks)
-            {
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents)
-            {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-            }
-        </script>
-
-        <script>
-            var sidemenu = document.getElementById("sidemenu");
-
-            function openmenu(){
-                sidemenu.style.right = "0";
-            }
-            function closemenu(){
-                sidemenu.style.right = "-200px";
-            }
-
-        </script>
+        <script src="script.js"></script>
 
     </body>
 </html>
